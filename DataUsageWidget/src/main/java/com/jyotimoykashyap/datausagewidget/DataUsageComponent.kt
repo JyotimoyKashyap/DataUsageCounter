@@ -32,7 +32,7 @@ import androidx.compose.ui.unit.TextUnit
 
 
 @Composable
-fun CustomComponent(
+fun DataUsageWidget(
     canvasSize: Dp = 300.dp,
     indicatorValue: Int = 0,
     maxIndicatorValue: Int = 100,
@@ -195,5 +195,5 @@ fun EmbeddedElements(
 @Composable
 @Preview(showBackground = true)
 fun CustomComponentPreview() {
-    CustomComponent()
+    DataUsageWidget()
 }

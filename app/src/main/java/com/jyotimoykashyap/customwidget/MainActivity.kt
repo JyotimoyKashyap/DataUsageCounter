@@ -21,6 +21,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
+import com.jyotimoykashyap.datausagewidget.DataUsageWidget
 
 
 class MainActivity : ComponentActivity() {
@@ -42,7 +43,8 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier
                             .size(height = 200.dp, width = 200.dp))
 
-                    CustomComponent(
+
+                    DataUsageWidget(
                         indicatorValue = value
                     )
 
